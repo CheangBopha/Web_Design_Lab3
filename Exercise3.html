@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Exercise 3</title>
+
+<style>
+
+*{
+  box-sizing:border-box;
+}
+
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  font-weight:bold;
+  color:white;
+}
+
+.page{
+  min-height:100vh;
+
+  display:flex;
+  flex-direction:column;
+
+  gap:15px;
+  padding:15px;
+}
+
+.header{
+  background:#1e90ff;
+  height:70px;
+  padding:20px;
+  border-radius:10px;
+}
+
+.middle{
+  flex:1;
+
+  display:flex;
+  gap:15px;
+}
+
+.main{
+  flex:1;
+  background:#3cb371;
+  border-radius:10px;
+  padding:15px;
+}
+
+.sidebar{
+  width:130px;
+  background:#ff6347;
+  border-radius:10px;
+  padding:15px;
+}
+
+.item-list{
+  display:flex;
+  flex-wrap:wrap;
+  gap:15px;
+}
+
+.item{
+  width:80px;
+  height:80px;
+  background:#2f8d59;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  border-radius:10px;
+}
+
+.footer{
+  background:#4169e1;
+  height:70px;
+  padding:20px;
+  border-radius:10px;
+}
+
+</style>
+</head>
+<body>
+
+<div class="page">
+
+  <div class="header">Header</div>
+
+  <div class="middle">
+
+    <div class="main">
+      <h3>Main</h3>
+
+      <div class="item-list">
+        <div class="item">Item</div>
+        <div class="item">Item</div>
+        <div class="item">Item</div>
+        <div class="item">Item</div>
+        <div class="item">Item</div>
+        <div class="item">Item</div>
+        <div class="item">Item</div>
+        <div class="item">Item</div>
+        <div class="item">Item</div>
+      </div>
+
+    </div>
+
+    <div class="sidebar">Sidebar</div>
+
+  </div>
+
+  <div class="footer">Footer</div>
+
+</div>
+
+</body>
+</html>
